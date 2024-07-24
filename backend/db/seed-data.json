@@ -1,0 +1,231 @@
+{
+  "devices": [
+    {
+      "serial_number": "MS10-000",
+      "ui_software_version": "v1.3.0",
+      "camera_software_version": "v1.0.0",
+      "make": "RaySecur",
+      "model": "MailSecur",
+      "version": "1.0",
+      "special_info": "beta unit"
+    },
+    {
+      "serial_number": "MS10-001",
+      "ui_software_version": "v1.0.2",
+      "camera_software_version": "v1.0.0",
+      "make": "RaySecur",
+      "model": "MailSecur",
+      "version": "1.0",
+      "special_info": ""
+    },
+    {
+      "serial_number": "MS10-002",
+      "ui_software_version": "v1.0.1",
+      "camera_software_version": "v1.0.0",
+      "make": "RaySecur",
+      "model": "MailSecur",
+      "version": "1.0",
+      "special_info": ""
+    },
+    {
+      "serial_number": "MS10-003",
+      "ui_software_version": "v1.0.6",
+      "camera_software_version": "v1.0.0",
+      "make": "RaySecur",
+      "model": "MailSecur",
+      "version": "1.0",
+      "special_info": ""
+    },
+    {
+      "serial_number": "MS10-004",
+      "ui_software_version": "v1.0.0",
+      "camera_software_version": "v1.0.0",
+      "make": "RaySecur",
+      "model": "MailSecur",
+      "version": "1.0",
+      "special_info": ""
+    }
+  ],
+  "metrics": [
+    {
+      "device_serial_number": "MS10-000",
+      "timestamp": 1621058526534,
+      "snapshots_number": 15,
+      "snapshots_size": 4977450,
+      "recordings_number": 49,
+      "recordings_size": 260531838,
+      "incident_reports_number": 2,
+      "incident_reports_size": 102284629,
+      "disk_total": 127912636416,
+      "disk_used": 109334724608,
+      "disk_available": 18577911808,
+      "analytics_byte_size": 74449,
+      "hours_source_usage": 252.27,
+      "hours_system_usage": 5123.18
+    },
+    {
+      "device_serial_number": "MS10-001",
+      "timestamp": 1621058526537,
+      "snapshots_number": 13,
+      "snapshots_size": 4977450,
+      "recordings_number": 57,
+      "recordings_size": 260731838,
+      "incident_reports_number": 1,
+      "incident_reports_size": 102684629,
+      "disk_total": 127912636416,
+      "disk_used": 104334724608,
+      "disk_available": 23577911808,
+      "analytics_byte_size": 74449,
+      "hours_source_usage": 272.23,
+      "hours_system_usage": 5420.24
+    },
+    {
+      "device_serial_number": "MS10-002",
+      "timestamp": 1621058426537,
+      "snapshots_number": 17,
+      "snapshots_size": 4979450,
+      "recordings_number": 37,
+      "recordings_size": 260431838,
+      "incident_reports_number": 2,
+      "incident_reports_size": 102484629,
+      "disk_total": 127912636416,
+      "disk_used": 104334724608,
+      "disk_available": 23577911808,
+      "analytics_byte_size": 74449,
+      "hours_source_usage": 222.86,
+      "hours_system_usage": 5120.32
+    },
+    {
+      "device_serial_number": "MS10-003",
+      "timestamp": 1621068426537,
+      "snapshots_number": 23,
+      "snapshots_size": 4999450,
+      "recordings_number": 43,
+      "recordings_size": 260531838,
+      "incident_reports_number": 1,
+      "incident_reports_size": 102684629,
+      "disk_total": 127912636416,
+      "disk_used": 104334724608,
+      "disk_available": 23577911808,
+      "analytics_byte_size": 76449,
+      "hours_source_usage": 262.37,
+      "hours_system_usage": 5246.32
+    },
+    {
+      "device_serial_number": "MS10-004",
+      "timestamp": 1621048426537,
+      "snapshots_number": 44,
+      "snapshots_size": 4969450,
+      "recordings_number": 32,
+      "recordings_size": 260331838,
+      "incident_reports_number": 3,
+      "incident_reports_size": 102884629,
+      "disk_total": 127912636416,
+      "disk_used": 104334724608,
+      "disk_available": 23577911808,
+      "analytics_byte_size": 73449,
+      "hours_source_usage": 252.46,
+      "hours_system_usage": 5146.45
+    }
+
+  ],
+  "events": [
+    {
+      "device_serial_number": "MS10-000",
+      "event_type": "SOFTWARE_UPDATED",
+      "timestamp": 1621058526534,
+      "json_payload": "{\"detail\": \"update successful\"}"
+    },
+    {
+      "device_serial_number": "MS10-001",
+      "event_type": "SOFTWARE_UPDATED",
+      "timestamp": 1621058536534,
+      "json_payload": "{\"detail\": \"update successful\"}"
+    },
+    {
+      "device_serial_number": "MS10-002",
+      "event_type": "SOFTWARE_UPDATED",
+      "timestamp": 1621058546534,
+      "json_payload": "{\"detail\": \"update successful\"}"
+    },
+    {
+      "device_serial_number": "MS10-003",
+      "event_type": "SOFTWARE_UPDATED",
+      "timestamp": 1621058556534,
+      "json_payload": "{\"detail\": \"update successful\"}"
+    },
+    {
+      "device_serial_number": "MS10-000",
+      "event_type": "CRITICAL_ERROR",
+      "timestamp": 1621038526534,
+      "json_payload": "{\"error\": \"Camera connection error\"}"
+    },
+    {
+      "device_serial_number": "MS10-000",
+      "event_type": "CRITICAL_ERROR",
+      "timestamp": 1621018526534,
+      "json_payload": "{\"error\": \"Camera connection error\"}"
+    },
+    {
+      "device_serial_number": "MS10-002",
+      "event_type": "CRITICAL_ERROR",
+      "timestamp": 1621058526534,
+      "json_payload": "{\"error\": \"Camera connection error\"}"
+    },
+    {
+      "device_serial_number": "MS10-000",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 1621019526534,
+      "json_payload": ""
+    },
+    {
+      "device_serial_number": "MS10-000",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 1621019526534,
+      "json_payload": ""
+    },
+    {
+      "device_serial_number": "MS10-001",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 1621014526534,
+      "json_payload": ""
+    },
+    {
+      "device_serial_number": "MS10-002",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 162109326534,
+      "json_payload": ""
+    },
+    {
+      "device_serial_number": "MS10-002",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 1621014326534,
+      "json_payload": ""
+    },
+    {
+      "device_serial_number": "MS10-003",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 1621017326534,
+      "json_payload": ""
+    },
+    {
+      "device_serial_number": "MS10-004",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 162104326534,
+      "json_payload": ""
+    },
+    {
+      "device_serial_number": "MS10-004",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 1621017326534,
+      "json_payload": ""
+    },
+    {
+      "device_serial_number": "MS10-004",
+      "event_type": "INCIDENT_REPORT_GENERATED",
+      "timestamp": 1621012326534,
+      "json_payload": ""
+    }
+
+  ]
+}
